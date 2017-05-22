@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container {
+  border: 5px solid green;
+}
+.lemon-content {
+  background-color: blue;
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  text-align: center;
+}
+.grey-box {
+  background-color: grey;
+  display: inline-block;
+  color: purple;
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.abc-box {
+  color: purple;
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  border: 2px solid red;
+}
+#abCenter {
+  text-align: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+#float-numbers {
+  text-align: right;
+}
